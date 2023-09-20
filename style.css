@@ -10,7 +10,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color: #002b36;
-        --text-color: #859900;
+        --text-color: #839496;
         --border-color: #073642;
         --accent-color: #268bd2;
     }
