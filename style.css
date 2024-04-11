@@ -36,34 +36,14 @@ a:hover {
     text-decoration: underline;
 }
 
-.event {
-    border-bottom: 1px solid var(--border-color);
+.links {
+    font-size: x-large;
     padding: 10px 0;
+    white-space: pre-wrap;
 }
 
-
-.event-date,
-.event-location,
-.event-agenda,
-.event-notes {
-    margin: 5px 0;
-}
-
-.event .event-notes {
-    font-style: italic;
-}
-
-.page-heading {
-    display: none;
-}
-
-.page-heading-small {
-    display: block;
-}
-
-.section-heading {
-    margin: 0;
-    color: var(--accent-color);
+.links pre {
+    white-space: pre-wrap;
 }
 
 @media screen and (min-width: 768px) {
@@ -74,4 +54,10 @@ a:hover {
     .page-heading-small {
         display: none;
     }
+}
+@media screen and (max-width: 767px) {
+    .page-heading {
+        display: none;
+    }
+
 }
