@@ -4,6 +4,7 @@
     --text-color: #073642;
     --border-color: #93a1a1;
     --accent-color: #268bd2;
+    --muted-color: #657b83;
 }
 
 /* Solarized Dark */
@@ -13,18 +14,44 @@
         --text-color: #839496;
         --border-color: #073642;
         --accent-color: #268bd2;
+        --muted-color: #586e75;
     }
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
 body {
-    font-family: "Courier New", monospace;
+    font-family: "Courier New", Consolas, Monaco, monospace;
     background-color: var(--background-color);
     color: var(--text-color);
-    margin: 40px;
-    padding: 20px;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.terminal-window {
     border: 1px solid var(--border-color);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    line-height: 1.6;
+    padding: 20px;
+}
+
+pre {
+    font-family: inherit;
+    white-space: pre;
+    overflow-x: auto;
 }
 
 a {
@@ -36,28 +63,39 @@ a:hover {
     text-decoration: underline;
 }
 
+.page-heading {
+    display: block;
+}
+
+.page-heading-small {
+    display: none;
+}
+
 .links {
-    font-size: x-large;
+    font-size: 1.25rem;
     padding: 10px 0;
     white-space: pre-wrap;
 }
 
 .links pre {
     white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
-@media screen and (min-width: 768px) {
-    .page-heading {
-        display: block;
-    }
-
-    .page-heading-small {
-        display: none;
-    }
-}
 @media screen and (max-width: 767px) {
     .page-heading {
         display: none;
     }
 
+    .page-heading-small {
+        display: block;
+    }
+
+    .container {
+        padding: 20px 10px;
+    }
+
+    .links {
+        font-size: 1rem;
+    }
 }
