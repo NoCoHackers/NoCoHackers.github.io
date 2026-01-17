@@ -4,17 +4,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static website for NoCo Hackers, a cybersecurity community in Northern Colorado. The site is built with Astro and hosted on GitHub Pages at nocohackers.com.
+This is a static website for NoCo Hackers, a cybersecurity community in Northern Colorado. The site is built with Astro using the terminal theme (inspired by astro-theme-terminal) and hosted via AWS Amplify at nocohackers.com.
 
 ## Commands
 
 - `npm run dev` - Start development server
-- `npm run build` - Build for production (outputs to `dist/`)
+- `npm run check` - Run type checking
+- `npm run build` - Type check and build for production (outputs to `dist/`)
 - `npm run preview` - Preview production build locally
 
 ## Deployment
 
-The site auto-deploys via GitHub Actions on push to `main` branch. The workflow builds the Astro site and deploys the `dist/` folder.
+The site deploys via AWS Amplify on push to `main` branch. Amplify runs `npm run build` and serves the `dist/` folder.
 
 ## Architecture
 
@@ -22,12 +23,12 @@ The site auto-deploys via GitHub Actions on push to `main` branch. The workflow 
 ```
 src/
 ├── layouts/
-│   └── BaseLayout.astro    # Base layout with terminal styling
+│   └── BaseLayout.astro    # Base layout with header, nav, footer
 ├── pages/
-│   ├── index.astro         # Landing page
-│   └── game.astro          # Bun Run game page
+│   ├── index.astro         # Landing page with ASCII art
+│   └── game.astro          # Bun Run game (standalone)
 └── styles/
-    └── terminal.css        # Solarized color scheme, terminal styling
+    └── terminal.css        # Terminal theme with Solarized colors
 
 public/
 ├── game/
@@ -36,17 +37,22 @@ public/
 └── docs/                   # PDF documents
 ```
 
+**Theme**
+- Based on [astro-theme-terminal](https://github.com/dennisklappe/astro-theme-terminal)
+- Solarized color scheme with automatic dark/light mode via `prefers-color-scheme`
+- Monospace typography (Fira Code, JetBrains Mono, Consolas)
+- Terminal-style header with logo and navigation
+- Responsive design (684px breakpoint)
+
 **Landing Page (`src/pages/index.astro`)**
-- ASCII art header with terminal-style navigation
-- Links displayed as simulated shell commands
-- Solarized color scheme with light/dark mode support via `prefers-color-scheme`
-- Responsive: different ASCII headers for desktop vs mobile (768px breakpoint)
+- ASCII art header with terminal-style shell prompts
+- Links displayed as simulated `ls` and `cat` commands
+- Responsive: different ASCII headers for desktop vs mobile
 
 **Bun Run Game (`src/pages/game.astro` + `public/game/game.js`)**
 - Canvas-based endless runner game at `/game`
 - Player sprite states: idle, run, jump, crouch
 - Obstacles: laptop, pc, server, drone (ground and air types)
-- Matrix rain background effect rendered on separate canvas
+- Matrix rain background effect
 - High scores stored in browser cookies
-- Controls: Space/Up to jump, Down to crouch; touch/click supported (top half = jump, bottom half = crouch)
-- Difficulty scales with score: obstacle variety increases, game speed increases over time
+- Controls: Space/Up to jump, Down to crouch; touch/click supported

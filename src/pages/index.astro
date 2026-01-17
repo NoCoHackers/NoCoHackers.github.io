@@ -28,23 +28,38 @@ const asciiSmall = ` _   _       _____
 ---
 
 <BaseLayout title="NoCo Hackers">
-    <div class="page-heading">
-        <pre set:text={asciiLarge} />
-    </div>
-    <div class="page-heading-small">
-        <pre set:text={asciiSmall} />
-    </div>
-    <div class="links">
-        <pre>
-&#x250C;&#x2500;(root@noco)-[stuff]
-&#x2514;&#x2500;# ls
-about <a href="/game">bun_run_the_game</a> discord  <a href="https://github.com/NoCoHackers/NoCoHackers.github.io/tree/main">event_repo</a> <a href="https://docs.google.com/forms/d/1v1UYgEOCzjJvIIrUeBE45Nti5Ho2tCzIuiuAjBQunuQ/viewform?edit_requested=true#response=ACYDBNjiVo_xmaGpfEASvWqw2Eax4KdPEd34CjFgF-cZA1mAT6Rxq4wcBa38m39Fw-e3xCQ">talk_submission</a> <a href="https://www.meetup.com/noco-hackers/">upcoming_events</a>
-&#x250C;&#x2500;(root@noco)-[stuff]
-&#x2514;&#x2500;# cat discord
-$9$J-ZUHzF/t0IDi/t0OSyvWL7Vwg4ZqmTgo5QF6u0vWL7wgiHmQ39go5Q3/puVbsYaGQznCpBdbjqmfF3puOIEy
-&#x250C;&#x2500;(root@noco)-[stuff]
+  <div class="page-heading">
+    <pre set:text={asciiLarge} />
+  </div>
+  <div class="page-heading-small">
+    <pre set:text={asciiSmall} />
+  </div>
+
+  <div class="terminal-prompt">
+    <pre>&#x250C;&#x2500;(root@noco)-[~]
+&#x2514;&#x2500;# ls -la
+
+<a href="/game">bun_run_game</a>     <a href="https://www.meetup.com/noco-hackers/">upcoming_events</a>
+<a href="https://github.com/NoCoHackers">event_repo</a>       <a href="https://docs.google.com/forms/d/1v1UYgEOCzjJvIIrUeBE45Nti5Ho2tCzIuiuAjBQunuQ/viewform?edit_requested=true">talk_submission</a>
+discord          about
+
+&#x250C;&#x2500;(root@noco)-[~]
 &#x2514;&#x2500;# cat about
-NoCo Hackers is a budding community of cybersecurity professionals, enthusiasts, and playful computing practitioners based in Northern Colorado. Our mission is to share knowledge, foster collaboration, and create a supportive environment for all skill levels to learn and grow in the ever-evolving world of cybersecurity.
-</pre>
-    </div>
+
+NoCo Hackers is a budding community of cybersecurity
+professionals, enthusiasts, and playful computing
+practitioners based in Northern Colorado.
+
+Our mission is to share knowledge, foster collaboration,
+and create a supportive environment for all skill levels
+to learn and grow in the ever-evolving world of cybersecurity.
+
+&#x250C;&#x2500;(root@noco)-[~]
+&#x2514;&#x2500;# cat discord
+
+$9$J-ZUHzF/t0IDi/t0OSyvWL7Vwg4ZqmTgo5QF6u0vWL7wgiHmQ39go5Q3/puVbsYaGQznCpBdbjqmfF3puOIEy
+
+&#x250C;&#x2500;(root@noco)-[~]
+&#x2514;&#x2500;# _</pre>
+  </div>
 </BaseLayout>

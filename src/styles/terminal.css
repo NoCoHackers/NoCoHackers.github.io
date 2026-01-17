@@ -1,101 +1,320 @@
-/* Solarized Light */
+/* Terminal Theme - Based on astro-theme-terminal by dennisklappe */
+/* Customized with Solarized color scheme for NoCo Hackers */
+
 :root {
-    --background-color: #fdf6e3;
-    --text-color: #073642;
-    --border-color: #93a1a1;
-    --accent-color: #268bd2;
-    --muted-color: #657b83;
+  /* Solarized Dark (default) */
+  --background: #002b36;
+  --foreground: #839496;
+  --accent: #2aa198;
+  --accent-alt: #268bd2;
+  --border: #073642;
+  --muted: #586e75;
+
+  /* Typography */
+  --font-size: 16px;
+  --line-height: 1.6;
+  --font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+
+  /* Shiki syntax highlighting */
+  --astro-code-color-text: var(--foreground);
+  --astro-code-color-background: var(--border);
+  --astro-code-token-constant: #b58900;
+  --astro-code-token-string: #2aa198;
+  --astro-code-token-comment: #586e75;
+  --astro-code-token-keyword: #859900;
+  --astro-code-token-parameter: #cb4b16;
+  --astro-code-token-function: #268bd2;
+  --astro-code-token-string-expression: #2aa198;
+  --astro-code-token-punctuation: #839496;
+  --astro-code-token-link: #6c71c4;
 }
 
-/* Solarized Dark */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #002b36;
-        --text-color: #839496;
-        --border-color: #073642;
-        --accent-color: #268bd2;
-        --muted-color: #586e75;
-    }
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Solarized Light */
+    --background: #fdf6e3;
+    --foreground: #657b83;
+    --accent: #2aa198;
+    --accent-alt: #268bd2;
+    --border: #eee8d5;
+    --muted: #93a1a1;
+
+    --astro-code-color-text: #657b83;
+    --astro-code-color-background: #eee8d5;
+  }
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
+  font-size: var(--font-size);
+  letter-spacing: 0;
+  line-height: var(--line-height);
 }
 
 body {
-    font-family: "Courier New", Consolas, Monaco, monospace;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    line-height: 1.6;
-    min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
+/* Layout */
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
+  max-width: 864px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.terminal-window {
-    border: 1px solid var(--border-color);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+.content {
+  flex: 1;
 }
 
-pre {
-    font-family: inherit;
-    white-space: pre;
-    overflow-x: auto;
+/* Header */
+.header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid color-mix(in srgb, var(--accent) 30%, transparent);
 }
 
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__mark {
+  background: var(--accent);
+  color: var(--background);
+  padding: 0.25rem 0.5rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.logo__text {
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.logo a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation */
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu a {
+  color: var(--foreground);
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid transparent;
+}
+
+.menu a:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Footer */
+.footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 2px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  opacity: 0.65;
+  font-size: 0.875rem;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.footer a {
+  color: inherit;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--foreground);
+}
+
+h1 { font-size: 1.45rem; }
+h2 { font-size: 1.3rem; }
+h3 { font-size: 1.2rem; }
+h4 { font-size: 1.1rem; }
+h5, h6 { font-size: 1rem; }
+
+/* Links */
 a {
-    color: var(--accent-color);
-    text-decoration: none;
+  color: var(--accent);
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
+/* Code */
+code {
+  font-family: var(--font-family);
+  font-size: 0.9em;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, transparent);
+  padding: 0.1em 0.3em;
+  border-radius: 0;
+}
+
+pre {
+  font-family: var(--font-family);
+  padding: 1rem;
+  overflow-x: auto;
+  background: var(--border);
+  border: 2px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  white-space: pre;
+  margin: 1rem 0;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-top: 2px solid var(--accent);
+  border-bottom: 2px solid var(--accent);
+  font-style: italic;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  border: 2px solid var(--border);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+/* Lists */
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin: 0.25rem 0;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent);
+  color: var(--background);
+}
+
+/* NoCo Hackers specific styles */
 .page-heading {
-    display: block;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 .page-heading-small {
+  display: none;
+}
+
+.page-heading pre,
+.page-heading-small pre {
+  color: var(--accent);
+  line-height: 1.2;
+}
+
+.terminal-prompt {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.terminal-prompt pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Framed content box */
+.framed {
+  border: 3px solid var(--accent);
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 684px) {
+  .container {
+    padding: 20px 15px;
+  }
+
+  .page-heading {
     display: none;
-}
+  }
 
-.links {
-    font-size: 1.25rem;
-    padding: 10px 0;
-    white-space: pre-wrap;
-}
+  .page-heading-small {
+    display: block;
+  }
 
-.links pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
+  .terminal-prompt {
+    font-size: 1rem;
+  }
 
-@media screen and (max-width: 767px) {
-    .page-heading {
-        display: none;
-    }
+  .header__inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 
-    .page-heading-small {
-        display: block;
-    }
+  .menu {
+    flex-wrap: wrap;
+  }
 
-    .container {
-        padding: 20px 10px;
-    }
-
-    .links {
-        font-size: 1rem;
-    }
+  .footer__inner {
+    flex-direction: column;
+  }
 }

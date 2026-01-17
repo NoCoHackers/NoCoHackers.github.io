@@ -1,27 +1,57 @@
 ---
 interface Props {
-    title: string;
+  title: string;
+  description?: string;
 }
 
-const { title } = Astro.props;
+const { title, description = "NoCo Hackers - Northern Colorado Cybersecurity Community" } = Astro.props;
+const currentYear = new Date().getFullYear();
 ---
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title}</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content={description}>
+  <title>{title}</title>
+  <link rel="canonical" href={Astro.url}>
+  <link rel="sitemap" href="/sitemap-index.xml">
 </head>
 <body>
-    <div class="container">
-        <div class="terminal-window">
-            <slot />
+  <div class="container">
+    <header class="header">
+      <div class="header__inner">
+        <div class="logo">
+          <a href="/">
+            <span class="logo__mark">~</span>
+            <span class="logo__text">NoCo Hackers</span>
+          </a>
         </div>
-    </div>
+        <nav class="menu">
+          <a href="/game">Game</a>
+          <a href="https://www.meetup.com/noco-hackers/" target="_blank" rel="noopener">Events</a>
+          <a href="https://github.com/NoCoHackers" target="_blank" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="content">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span>&copy; {currentYear} NoCo Hackers</span>
+        <span>
+          Theme inspired by <a href="https://github.com/dennisklappe/astro-theme-terminal" target="_blank" rel="noopener">astro-theme-terminal</a>
+        </span>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
 
 <style is:global>
-    @import '../styles/terminal.css';
+  @import '../styles/terminal.css';
 </style>
