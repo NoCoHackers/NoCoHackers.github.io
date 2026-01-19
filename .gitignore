@@ -1,24 +1,17 @@
-# Dependencies
-node_modules/
+# Hugo build output
+public/
+resources/_gen/
 
-# Build output
-dist/
+# Hugo cache
+.hugo_build.lock
 
-# Astro generated files
-.astro/
-
-# Environment files
+# Environment variables
 .env
-.env.*
+.env.production
 
-# Editor directories
-.vscode/
-.idea/
-
-# OS files
+# macOS-specific files
 .DS_Store
-Thumbs.db
 
-# Logs
-*.log
-npm-debug.log*
+# IDE settings
+.idea/
+.vscode/

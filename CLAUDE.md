@@ -4,55 +4,46 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a static website for NoCo Hackers, a cybersecurity community in Northern Colorado. The site is built with Astro using the terminal theme (inspired by astro-theme-terminal) and hosted via AWS Amplify at nocohackers.com.
+This is the static website for NoCo Hackers, a cybersecurity community in Northern Colorado. The site is built with Hugo using the [hugo-theme-terminal](https://github.com/panr/hugo-theme-terminal) theme and hosted via GitHub Pages at nocohackers.com.
 
 ## Commands
 
-- `npm run dev` - Start development server
-- `npm run check` - Run type checking
-- `npm run build` - Type check and build for production (outputs to `dist/`)
-- `npm run preview` - Preview production build locally
+- `hugo server -D` - Start development server with drafts
+- `hugo` - Build for production (outputs to `public/`)
 
 ## Deployment
 
-The site deploys via AWS Amplify on push to `main` branch. Amplify runs `npm run build` and serves the `dist/` folder.
+The site deploys via GitHub Pages on push to `main` branch. The workflow installs Hugo, builds the site, and deploys to GitHub Pages.
 
 ## Architecture
 
-**Astro Structure**
+**Hugo Structure**
 ```
-src/
-├── layouts/
-│   └── BaseLayout.astro    # Base layout with header, nav, footer
-├── pages/
-│   ├── index.astro         # Landing page with ASCII art
-│   └── game.astro          # Bun Run game (standalone)
-└── styles/
-    └── terminal.css        # Terminal theme with Solarized colors
+content/
+├── _index.md               # Landing page content
+└── about.md                # About page
 
-public/
-├── game/
-│   ├── sprites/            # Game sprite images
-│   └── game.js             # Game logic
-└── docs/                   # PDF documents
+layouts/                    # Custom layout overrides (if needed)
+
+static/
+├── style.css               # Custom color scheme overrides
+├── favicon.ico             # Favicon
+└── favicon.svg             # SVG favicon
+
+themes/terminal/            # Hugo Terminal theme (git submodule)
+
+hugo.toml                   # Hugo configuration
 ```
 
 **Theme**
-- Based on [astro-theme-terminal](https://github.com/dennisklappe/astro-theme-terminal)
-- Solarized color scheme with automatic dark/light mode via `prefers-color-scheme`
-- Monospace typography (Fira Code, JetBrains Mono, Consolas)
-- Terminal-style header with logo and navigation
-- Responsive design (684px breakpoint)
+- Based on [hugo-theme-terminal](https://github.com/panr/hugo-theme-terminal) by panr
+- Custom teal accent color (#32858b) with dark background (#1a170f)
+- Fira Code monospace font
+- Terminal-style header with logo
+- Centered layout with max-width container
 
-**Landing Page (`src/pages/index.astro`)**
-- ASCII art header with terminal-style shell prompts
-- Links displayed as simulated `ls` and `cat` commands
-- Responsive: different ASCII headers for desktop vs mobile
-
-**Bun Run Game (`src/pages/game.astro` + `public/game/game.js`)**
-- Canvas-based endless runner game at `/game`
-- Player sprite states: idle, run, jump, crouch
-- Obstacles: laptop, pc, server, drone (ground and air types)
-- Matrix rain background effect
-- High scores stored in browser cookies
-- Controls: Space/Up to jump, Down to crouch; touch/click supported
+**Color Scheme**
+The site uses a custom color scheme defined in `static/style.css`:
+- Background: #1a170f (dark brown)
+- Foreground: #eceae5 (light beige)
+- Accent: #32858b (teal)
