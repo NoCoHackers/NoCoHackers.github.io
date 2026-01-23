@@ -30,5 +30,4 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          CLAUDE_BASE_BRANCH: dev
+          base_branch: dev  # This tells Claude to target dev branch for PRs
