@@ -83,7 +83,7 @@ theme = "terminal"
       [[languages.en.menu.main]]
         identifier = "discord"
         name = "Discord"
-        url = "https://discord.gg/NCHSxMUryk"
+        url = "https://discord.gg/udArp6jR2Y"
         weight = 2
       [[languages.en.menu.main]]
         identifier = "submit"
