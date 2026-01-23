@@ -10,7 +10,7 @@ Whether you're a seasoned pentester, a curious beginner, or somewhere in between
 
 ## Website
 
-This site is built with [Hugo](https://gohugo.io/) using the Terminal theme and hosted on GitHub Pages.
+This site is built with [Hugo](https://gohugo.io/) using the Terminal theme and hosted on AWS Amplify.
 
 - **Main branch**: Production site
 - **Dev branch**: Staging/preview
