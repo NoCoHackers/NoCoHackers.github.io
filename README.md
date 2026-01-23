@@ -18,7 +18,7 @@ This site is built with [Hugo](https://gohugo.io/) using the Terminal theme and 
 ## Links
 
 - [Events](/events/) - Upcoming meetups
-- [Discord](https://discord.gg/your-invite) - Join our community
+- [Discord](https://discord.gg/udArp6jR2Y) - Join our community
 - [Submit a Talk](https://forms.google.com) - Propose a presentation
 
 ## Contributing
