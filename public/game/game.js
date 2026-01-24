@@ -117,27 +117,27 @@ class Player {
     // Load idle sprites
     for (let i = 0; i < 4; i++) {
       const img = new Image();
-      img.src = `bun-idle${i}.png`;
+      img.src = `/game/bun-idle${i}.png`;
       this.sprites.idle.push(img);
     }
 
     // Load run sprites
     for (let i = 0; i < 4; i++) {
       const img = new Image();
-      img.src = `bun-run${i}.png`;
+      img.src = `/game/bun-run${i}.png`;
       this.sprites.run.push(img);
     }
 
     // Load jump sprites
     for (let i = 0; i < 4; i++) {
       const img = new Image();
-      img.src = `bun-jump${i}.png`;
+      img.src = `/game/bun-jump${i}.png`;
       this.sprites.jump.push(img);
     }
 
     // Load crouch sprite
     const crouchImg = new Image();
-    crouchImg.src = "bun-crouch0.png";
+    crouchImg.src = "/game/bun-crouch0.png";
     this.sprites.crouch.push(crouchImg);
   }
 
@@ -336,10 +336,10 @@ const obstacleSprites = {
   drone: new Image(),
 };
 
-obstacleSprites.laptop.src = "laptop.png";
-obstacleSprites.pc.src = "pc.png";
-obstacleSprites.server.src = "server.png";
-obstacleSprites.drone.src = "drone.png";
+obstacleSprites.laptop.src = "/game/laptop.png";
+obstacleSprites.pc.src = "/game/pc.png";
+obstacleSprites.server.src = "/game/server.png";
+obstacleSprites.drone.src = "/game/drone.png";
 
 // Game objects
 const player = new Player();

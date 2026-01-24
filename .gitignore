@@ -1,0 +1,17 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo cache
+.hugo_build.lock
+
+# Environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/

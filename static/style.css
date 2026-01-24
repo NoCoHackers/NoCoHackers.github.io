@@ -1,0 +1,97 @@
+/* Custom color scheme for NoCo Hackers */
+/* Dark mode (default) - Teal accent */
+:root {
+  --background: #1a170f;
+  --foreground: #eceae5;
+  --accent: #32858b;
+}
+
+/* Light mode - Orange accent */
+[data-theme="light"] {
+  --background: #FFFBF7;
+  --foreground: #45372B;
+  --accent: #DF7020;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 2px 4px;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: calc(var(--font-size) * 0.85);
+  color: var(--accent);
+  cursor: pointer;
+  transition: color 0.15s ease;
+  white-space: nowrap;
+}
+
+.theme-toggle__dark,
+.theme-toggle__light {
+  display: inline-block;
+  width: 7ch;
+  text-align: center;
+}
+
+.theme-toggle:hover {
+  text-decoration: underline;
+}
+
+.theme-toggle:focus {
+  outline: 1px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Show [light] in dark mode (click to switch to light) */
+/* Show [dark] in light mode (click to switch to dark) */
+.theme-toggle__dark {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle__light {
+  display: none;
+}
+
+[data-theme="light"] .theme-toggle__dark {
+  display: inline-block;
+}
+
+/* Adjust header layout for toggle */
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+
+/* Hide anchor links on headings */
+.hanchor {
+  display: none;
+}
+
+/* H1 headings with double dotted underline (like post title) */
+h1 {
+  position: relative;
+  color: var(--accent);
+  padding-bottom: 15px;
+  border-bottom: 3px dotted var(--accent);
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  display: block;
+  width: 100%;
+  border-bottom: 3px dotted var(--accent);
+}
+
+/* Mobile adjustments */
+@media (max-width: 684px) {
+  .theme-toggle {
+    margin-right: 5px;
+    font-size: calc(var(--font-size) * 0.8);
+  }
+}

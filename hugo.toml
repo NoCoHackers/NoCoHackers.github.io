@@ -1,0 +1,110 @@
+baseURL = "https://nocohackers.com/"
+languageCode = "en-us"
+title = "NoCo Hackers"
+theme = "terminal"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 6
+
+  # show selector to switch language
+  showLanguageSelector = false
+
+  # set theme to full width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
+  # then the file will be used as a cover automatically.
+  # With this option you don't have to put the `cover` param in a front-matter.
+  autoCover = true
+
+  # set post to show the last updated
+  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  showLastUpdated = false
+
+  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
+  # updatedDatePrefix = "Updated"
+
+  # whether to show a page's estimated reading time
+  readingTime = false
+
+  # whether to show a table of contents
+  # can be overridden in a page's front-matter
+  Toc = false
+
+  # set title for the table of contents
+  # can be overridden in a page's front-matter
+  TocTitle = "Table of Contents"
+
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#702702702
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "NoCo Hackers"
+    subtitle = "Northern Colorado Cybersecurity Community"
+    owner = "NoCo Hackers"
+    keywords = "cybersecurity, hacking, northern colorado, community, CTF"
+    copyright = "NoCo Hackers"
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.en.params.logo]
+      logoText = "noco_hackers"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "events"
+        name = "Events"
+        url = "/events/"
+        weight = 1
+      [[languages.en.menu.main]]
+        identifier = "discord"
+        name = "Discord"
+        url = "https://discord.gg/udArp6jR2Y"
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "submit"
+        name = "Submit a Talk"
+        url = "https://forms.gle/ELbuAEUHFhXBNUjw9"
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "projects"
+        name = "Projects"
+        url = "/projects/"
+        weight = 4
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 5
+
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(npx degit dennisklappe/astro-theme-terminal . --force)",
+      "Bash(git submodule:*)",
+      "Bash(git ls-tree:*)",
+      "WebFetch(domain:dev.nocohackers.com)"
+    ]
+  }
+}
