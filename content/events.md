@@ -8,16 +8,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, February 19, 2026
-
-**Career/ Job Hunting**
-
-**Speaker:** Ryan Thompson
-
-This event is setup to be more of an open form to help anyone interested in breaking into the field or move into a different role and is typically an open conversation. These sessions typically focus on resume review, interview tips, and general job hunting strategies. Even if you are not interested in finding that new role today, your input may be useful to someone else who is on the hunt!
-
----
-
 ## Thursday, March 19, 2026
 
 **#CodeHedgehogs**
@@ -40,9 +30,11 @@ Building on the "Intro to Modern Cryptography" talk from last August we will 1) 
 
 ## Thursday, May 21, 2026
 
-**NoCo Hackers Monthly Meetup**
+**Career/ Job Hunting**
 
-*Topic to be announced - check back soon or join our Discord for updates!*
+**Speaker:** Ryan Thompson
+
+This event is setup to be more of an open form to help anyone interested in breaking into the field or move into a different role and is typically an open conversation. These sessions typically focus on resume review, interview tips, and general job hunting strategies. Even if you are not interested in finding that new role today, your input may be useful to someone else who is on the hunt!
 
 ---
 
