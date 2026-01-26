@@ -12,7 +12,7 @@ theme = "terminal"
   contentTypeName = "posts"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 6
+  showMenuItems = 7
 
   # show selector to switch language
   showLanguageSelector = false
@@ -81,25 +81,30 @@ theme = "terminal"
         url = "/events/"
         weight = 1
       [[languages.en.menu.main]]
+        identifier = "talks"
+        name = "Past Talks"
+        url = "/talks/"
+        weight = 2
+      [[languages.en.menu.main]]
         identifier = "discord"
         name = "Discord"
         url = "https://discord.gg/udArp6jR2Y"
-        weight = 2
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "submit"
         name = "Submit a Talk"
         url = "https://forms.gle/ELbuAEUHFhXBNUjw9"
-        weight = 3
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects/"
-        weight = 4
+        weight = 5
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About"
         url = "/about/"
-        weight = 5
+        weight = 6
 
 
 [markup]
