@@ -10,9 +10,11 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ## Thursday, February 19, 2026
 
-**NoCo Hackers Monthly Meetup**
+**Career/ Job Hunting**
 
-*Topic to be announced - check back soon or join our Discord for updates!*
+**Speaker:** Ryan Thompson
+
+This event is setup to be more of an open form to help anyone interested in breaking into the field or move into a different role and is typically an open conversation. These sessions typically focus on resume review, interview tips, and general job hunting strategies. Even if you are not interested in finding that new role today, your input may be useful to someone else who is on the hunt!
 
 ---
 
@@ -33,14 +35,6 @@ The take-aways for this talk will be ideas on how to engage developers in shifti
 **Speaker:** Brandon James
 
 Building on the "Intro to Modern Cryptography" talk from last August we will 1) briefly review x509 certificates, cert chaining and public key cryptography (5 minutes) 2) discuss hardware backed key storage mechanisms (5 minutes) 3) discuss ACME, SCEP and EST (10 minutes) 4) discuss CRLs, OCSP and certificate lifetime best practices (10 minutes)
-
----
-
-## Thursday, May 21, 2026
-
-**NoCo Hackers Monthly Meetup**
-
-*Topic to be announced - check back soon or join our Discord for updates!*
 
 ---
 
