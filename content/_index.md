@@ -7,7 +7,6 @@ We're a community of cybersecurity professionals and enthusiasts in Northern Col
 Whether you're a seasoned pentester, a curious beginner, or somewhere in between, you're welcome here. We host regular meetups featuring hands-on workshops, CTF challenges, tool demos, and technical talks.
 
 # Next Meetup
-*in 6 days*
 
 **Date:** Thursday, April 16, 2026  
 **Time:** 6:00 PM MST  
