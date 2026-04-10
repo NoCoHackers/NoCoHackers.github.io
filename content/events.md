@@ -10,7 +10,7 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ## Thursday, April 16, 2026
 
-**Securing Agentic AI: what still works, what breaks, whatâs next**
+**Securing Agentic AI: what still works, what breaks, what’s next**
 
 **Speaker:** Mike and Agent Smith
 
