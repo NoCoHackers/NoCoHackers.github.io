@@ -7,16 +7,16 @@ We're a community of cybersecurity professionals and enthusiasts in Northern Col
 Whether you're a seasoned pentester, a curious beginner, or somewhere in between, you're welcome here. We host regular meetups featuring hands-on workshops, CTF challenges, tool demos, and technical talks.
 
 # Next Meetup
-*in 3 weeks, 2 days*
+*in 5 weeks, 6 days*
 
-**Date:** Thursday, March 19, 2026  
+**Date:** Thursday, May 21, 2026  
 **Time:** 6:00 PM MST  
 **Location:** [Purpose Brewing](https://maps.app.goo.gl/x7jx5fEEr9748dgr5)
 
-**Topic:** #CodeHedgehogs  
-**Speaker:** Penelope Rozhkova
+**Topic:** Certificate Distribution and Key Management  
+**Speaker:** Brandon James
 
-The take-aways for this talk will be ideas on how to engage developers in shifting the security posture of their organizations through secure coding with a simple analogy, concrete steps at each phase of the SDLC, and fun ways to learn how to do it.
+Building on the "Intro to Modern Cryptography" talk from last August we will 1) briefly review x509 certificates, cert chaining and public key cryptography (5 minutes) 2) discuss hardware backed key storage mechanisms (5 minutes) 3) discuss ACME, SCEP and EST (10 minutes) 4) discuss CRLs, OCSP and certificate lifetime best practices (10 minutes)
 
 ---
 

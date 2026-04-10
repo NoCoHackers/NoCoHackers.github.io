@@ -8,17 +8,7 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, March 19, 2026
-
-**#CodeHedgehogs**
-
-**Speaker:** Penelope Rozhkova
-
-The take-aways for this talk will be ideas on how to engage developers in shifting the security posture of their organizations through secure coding with a simple analogy, concrete steps at each phase of the SDLC, and fun ways to learn how to do it.
-
----
-
-## Thursday, April 16, 2026
+## Thursday, May 21, 2026
 
 **Certificate Distribution and Key Management**
 
@@ -28,23 +18,7 @@ Building on the "Intro to Modern Cryptography" talk from last August we will 1) 
 
 ---
 
-## Thursday, June 18, 2026
-
-**NoCo Hackers Monthly Meetup**
-
-*Topic to be announced - check back soon or join our Discord for updates!*
-
----
-
-## Thursday, July 16, 2026
-
-**NoCo Hackers Monthly Meetup**
-
-*Topic to be announced - check back soon or join our Discord for updates!*
-
----
-
-## Thursday, September 17, 2026
+## Thursday, October 15, 2026
 
 **WTF's a CTF?**
 
