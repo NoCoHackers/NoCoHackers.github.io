@@ -28,6 +28,38 @@ Building on the "Intro to Modern Cryptography" talk from last August we will 1) 
 
 ---
 
+## Thursday, June 18, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, July 16, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, August 20, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, September 17, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
 ## Thursday, October 15, 2026
 
 **WTF's a CTF?**
