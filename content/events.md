@@ -8,6 +8,16 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
+## Thursday, April 16, 2026
+
+**Securing Agentic AI: what still works, what breaks, whatâs next**
+
+**Speaker:** Mike and Agent Smith
+
+This talk argues that agentic AI security begins with the fact that a brief human prompt can trigger powerful reasoning, memory access, and real-world actions. It uses concrete examples to show how memory, tool-calling, and output delivery create new attack surfaces, and why those pathways need explicit security controls.
+
+---
+
 ## Thursday, May 21, 2026
 
 **Certificate Distribution and Key Management**

@@ -7,16 +7,16 @@ We're a community of cybersecurity professionals and enthusiasts in Northern Col
 Whether you're a seasoned pentester, a curious beginner, or somewhere in between, you're welcome here. We host regular meetups featuring hands-on workshops, CTF challenges, tool demos, and technical talks.
 
 # Next Meetup
-*in 5 weeks, 6 days*
+*in 6 days*
 
-**Date:** Thursday, May 21, 2026  
+**Date:** Thursday, April 16, 2026  
 **Time:** 6:00 PM MST  
 **Location:** [Purpose Brewing](https://maps.app.goo.gl/x7jx5fEEr9748dgr5)
 
-**Topic:** Certificate Distribution and Key Management  
-**Speaker:** Brandon James
+**Topic:** Securing Agentic AI: what still works, what breaks, whatâs next  
+**Speaker:** Mike and Agent Smith
 
-Building on the "Intro to Modern Cryptography" talk from last August we will 1) briefly review x509 certificates, cert chaining and public key cryptography (5 minutes) 2) discuss hardware backed key storage mechanisms (5 minutes) 3) discuss ACME, SCEP and EST (10 minutes) 4) discuss CRLs, OCSP and certificate lifetime best practices (10 minutes)
+This talk argues that agentic AI security begins with the fact that a brief human prompt can trigger powerful reasoning, memory access, and real-world actions. It uses concrete examples to show how memory, tool-calling, and output delivery create new attack surfaces, and why those pathways need explicit security controls.
 
 ---
 
