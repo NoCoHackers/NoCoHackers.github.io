@@ -6,6 +6,16 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, April 16, 2026
+
+**Securing Agentic AI: what still works, what breaks, what’s next**
+
+**Speaker:** Mike and Agent Smith
+
+This talk argues that agentic AI security begins with the fact that a brief human prompt can trigger powerful reasoning, memory access, and real-world actions. It uses concrete examples to show how memory, tool-calling, and output delivery create new attack surfaces, and why those pathways need explicit security controls.
+
+---
+
 ## Thursday, March 19, 2026
 
 **#CodeHedgehogs**
@@ -23,6 +33,16 @@ The take-aways for this talk will be ideas on how to engage developers in shifti
 **Speaker:** Ryan Thompson
 
 This event is setup to be more of an open form to help anyone interested in breaking into the field or move into a different role and is typically an open conversation. These sessions typically focus on resume review, interview tips, and general job hunting strategies. Even if you are not interested in finding that new role today, your input may be useful to someone else who is on the hunt!
+
+---
+
+## Thursday, January 15, 2026
+
+**Silence of the Logs**
+
+**Speaker:** Ryan Thompson
+
+This talk will walk through real-world defense impairment techniques across AWS and Azure. We'll dig into what it looks like when attackers suppress their own IPs in GuardDuty, redirect CloudTrail logs to buckets they control, tamper with Azure diagnostic settings, or disable Defender entirely.
 
 ---
 
