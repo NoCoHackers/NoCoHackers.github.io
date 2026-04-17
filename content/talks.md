@@ -6,6 +6,16 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, April 16, 2026
+
+**Securing Agentic AI: what still works, what breaks, what’s next**
+
+**Speaker:** Mike and Agent Smith
+
+This talk argues that agentic AI security begins with the fact that a brief human prompt can trigger powerful reasoning, memory access, and real-world actions. It uses concrete examples to show how memory, tool-calling, and output delivery create new attack surfaces, and why those pathways need explicit security controls.
+
+---
+
 ## Thursday, March 19, 2026
 
 **#CodeHedgehogs**
