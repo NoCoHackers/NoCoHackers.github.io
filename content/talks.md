@@ -6,6 +6,16 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, May 21, 2026
+
+**Certificate Distribution and Key Management**
+
+**Speaker:** Brandon James
+
+Building on the "Intro to Modern Cryptography" talk from last August we will 1) briefly review x509 certificates, cert chaining and public key cryptography (5 minutes) 2) discuss hardware backed key storage mechanisms (5 minutes) 3) discuss ACME, SCEP and EST (10 minutes) 4) discuss CRLs, OCSP and certificate lifetime best practices (10 minutes)
+
+---
+
 ## Thursday, April 16, 2026
 
 **Securing Agentic AI: what still works, what breaks, what’s next**

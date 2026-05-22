@@ -8,16 +8,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, May 21, 2026
-
-**Certificate Distribution and Key Management**
-
-**Speaker:** Brandon James
-
-Building on the "Intro to Modern Cryptography" talk from last August we will 1) briefly review x509 certificates, cert chaining and public key cryptography (5 minutes) 2) discuss hardware backed key storage mechanisms (5 minutes) 3) discuss ACME, SCEP and EST (10 minutes) 4) discuss CRLs, OCSP and certificate lifetime best practices (10 minutes)
-
----
-
 ## Thursday, June 18, 2026
 
 **NoCo Hackers Monthly Meetup**
@@ -57,6 +47,14 @@ Building on the "Intro to Modern Cryptography" talk from last August we will 1) 
 **Speaker:** Penelope Rozhkova
 
 The speaker will explain what a CTF is and what it is not. She will touch on the different types of CTF games, discuss where to start playing if you have never played before and tools to grow professional skills, and share tools that can be used to help solve challenges. Attendees will have the opportunity to tap into a couple of entry-level CTFs and try out the open-source tool CyberChef -- the Cyber Swiss Army Knife.
+
+---
+
+## Thursday, November 19, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
 
 ---
 
