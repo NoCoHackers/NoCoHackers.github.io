@@ -10,9 +10,11 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ## Thursday, June 18, 2026
 
-**NoCo Hackers Monthly Meetup**
+**SLOP FEST**
 
-*Topic to be announced - check back soon or join our Discord for updates!*
+**Speaker:** NoCo Hackers Community (Ryan and Brandon + any additional interested folks)
+
+We've all been vibe coding, sometimes at work, but often at home. Show off your vibecoded utilities and discuss lessons learned while building them.
 
 ---
 
@@ -26,9 +28,11 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ## Thursday, August 20, 2026
 
-**NoCo Hackers Monthly Meetup**
+**The Keys to the City - Into to lock picking**
 
-*Topic to be announced - check back soon or join our Discord for updates!*
+**Speaker:** Matt Brutscher
+
+This talk will be a beginner friendly and brief introduction locks, lock picking. Followed by a hands on lock picking lab with 3D printed examples and my collection of practice locks.
 
 ---
 
