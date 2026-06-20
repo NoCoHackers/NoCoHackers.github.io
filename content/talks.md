@@ -6,6 +6,16 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, June 18, 2026
+
+**SLOP FEST**
+
+**Speaker:** NoCo Hackers Community (Ryan and Brandon + any additional interested folks)
+
+We've all been vibe coding, sometimes at work, but often at home. Show off your vibecoded utilities and discuss lessons learned while building them.
+
+---
+
 ## Thursday, May 21, 2026
 
 **Certificate Distribution and Key Management**
