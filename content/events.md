@@ -8,16 +8,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, June 18, 2026
-
-**SLOP FEST**
-
-**Speaker:** NoCo Hackers Community (Ryan and Brandon + any additional interested folks)
-
-We've all been vibe coding, sometimes at work, but often at home. Show off your vibecoded utilities and discuss lessons learned while building them.
-
----
-
 ## Thursday, July 16, 2026
 
 **NoCo Hackers Monthly Meetup**
@@ -55,6 +45,14 @@ The speaker will explain what a CTF is and what it is not. She will touch on the
 ---
 
 ## Thursday, November 19, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, December 17, 2026
 
 **NoCo Hackers Monthly Meetup**
 
