@@ -6,6 +6,12 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, July 16, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+---
+
 ## Thursday, June 18, 2026
 
 **SLOP FEST**
