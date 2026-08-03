@@ -8,14 +8,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, July 16, 2026
-
-**NoCo Hackers Monthly Meetup**
-
-*Topic to be announced - check back soon or join our Discord for updates!*
-
----
-
 ## Thursday, August 20, 2026
 
 **The Keys to the City - Into to lock picking**
@@ -53,6 +45,14 @@ The speaker will explain what a CTF is and what it is not. She will touch on the
 ---
 
 ## Thursday, December 17, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, January 21, 2027
 
 **NoCo Hackers Monthly Meetup**
 
