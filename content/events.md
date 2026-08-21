@@ -8,16 +8,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, August 20, 2026
-
-**The Keys to the City - Into to lock picking**
-
-**Speaker:** Matt Brutscher
-
-This talk will be a beginner friendly and brief introduction locks, lock picking. Followed by a hands on lock picking lab with 3D printed examples and my collection of practice locks.
-
----
-
 ## Thursday, September 17, 2026
 
 **NoCo Hackers Monthly Meetup**
@@ -53,6 +43,14 @@ The speaker will explain what a CTF is and what it is not. She will touch on the
 ---
 
 ## Thursday, January 21, 2027
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, February 18, 2027
 
 **NoCo Hackers Monthly Meetup**
 

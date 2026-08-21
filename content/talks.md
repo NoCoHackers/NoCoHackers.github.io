@@ -6,6 +6,16 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, August 20, 2026
+
+**The Keys to the City - Into to lock picking**
+
+**Speaker:** Matt Brutscher
+
+This talk will be a beginner friendly and brief introduction locks, lock picking. Followed by a hands on lock picking lab with 3D printed examples and my collection of practice locks.
+
+---
+
 ## Thursday, July 16, 2026
 
 **NoCo Hackers Monthly Meetup**
