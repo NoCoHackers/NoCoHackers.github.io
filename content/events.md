@@ -10,14 +10,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ## Thursday, September 17, 2026
 
-**NoCo Hackers Monthly Meetup**
-
-*Topic to be announced - check back soon or join our Discord for updates!*
-
----
-
-## Thursday, October 15, 2026
-
 **WTF's a CTF?**
 
 **Speaker:** Penelope Rozhkova
