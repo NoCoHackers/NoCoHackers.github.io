@@ -18,6 +18,14 @@ The speaker will explain what a CTF is and what it is not. She will touch on the
 
 ---
 
+## Thursday, October 15, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
 ## Thursday, November 19, 2026
 
 **NoCo Hackers Monthly Meetup**
