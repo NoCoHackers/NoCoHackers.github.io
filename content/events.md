@@ -8,14 +8,6 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 
 ---
 
-## Thursday, October 15, 2026
-
-**NoCo Hackers Monthly Meetup**
-
-*Topic to be announced - check back soon or join our Discord for updates!*
-
----
-
 ## Thursday, November 19, 2026
 
 **NoCo Hackers Monthly Meetup**
@@ -49,6 +41,14 @@ Want to give a talk? [Submit a proposal](https://forms.google.com)!
 ---
 
 ## Thursday, March 18, 2027
+
+**NoCo Hackers Monthly Meetup**
+
+*Topic to be announced - check back soon or join our Discord for updates!*
+
+---
+
+## Thursday, April 15, 2027
 
 **NoCo Hackers Monthly Meetup**
 

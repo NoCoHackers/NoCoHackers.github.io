@@ -6,6 +6,12 @@ A history of talks presented at NoCo Hackers meetups.
 
 ---
 
+## Thursday, October 15, 2026
+
+**NoCo Hackers Monthly Meetup**
+
+---
+
 ## Thursday, September 17, 2026
 
 **WTF's a CTF?**
