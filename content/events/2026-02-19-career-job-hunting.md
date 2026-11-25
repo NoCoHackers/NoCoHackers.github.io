@@ -20,8 +20,6 @@ tags: ["noco-hackers", "meetup"]
 
 This event is setup to be more of an open form to help anyone interested in breaking into the field or move into a different role and is typically an open conversation. These sessions typically focus on resume review, interview tips, and general job hunting strategies. Even if you are not interested in finding that new role today, your input may be useful to someone else who is on the hunt!
 
-**Nerd Swap:** Bring your unwanted tech, books, gadgets, or anything else nerdy to trade or give away! We'll have a designated area for nerd swaps during the event.
-
 ---
 
 **RSVP on Meetup** | **Join us on Discord**
